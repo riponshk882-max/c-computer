@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<title>TEAM COMPUTER - Computer, Laptop & IT Solution Store</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="TEAM COMPUTER - Computer Parts, Laptop Parts, SSD, RAM, Processor, Graphics Card, Printer, CCTV, Networking Products & IT Services">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<style>
+
+:root{
+--primary:#0A84FF;
+--secondary:#FF7A00;
+--white:#ffffff;
+--dark:#101828;
+--bg:#f6f8fc;
+}
+
+body{
+margin:0;
+background:var(--bg);
+font-family:Inter,sans-serif;
+}
+
+.hero{
+height:75vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url("computer-showroom-banner.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero-content{
+max-width:900px;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:800;
+}
+
+.hero p{
+font-size:22px;
+}
+
+.cta-buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:25px;
+}
+
+.btn{
+padding:16px 28px;
+border-radius:14px;
+text-decoration:none;
+font-weight:700;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+}
+
+.call{
+background:white;
+color:#0A84FF;
+}
+
+.products-section{
+padding:60px 20px;
+}
+
+.section-title{
+text-align:center;
+font-size:36px;
+font-weight:700;
+margin-bottom:40px;
+}
+
+.products-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.product-card{
+background:white;
+border-radius:25px;
+overflow:hidden;
+box-shadow:0 10px 35px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.product-card:hover{
+transform:translateY(-8px);
+}
+
+.product-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.product-info{
+padding:20px;
+}
+
+.price{
+font-size:24px;
+font-weight:700;
+color:#FF7A00;
+}
+
+.stock{
+color:#14b814;
+font-weight:600;
+}
+
+.order-btn{
+display:block;
+text-align:center;
+padding:12px;
+background:#25D366;
+color:white;
+border-radius:12px;
+text-decoration:none;
+margin-top:10px;
+}
+
+.category-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(180px,1fr));
+gap:15px;
+}
+
+.category-card{
+background:white;
+padding:25px;
+text-align:center;
+border-radius:20px;
+font-weight:700;
+}
+
+.offer-banner{
+background:
+linear-gradient(135deg,#0A84FF,#4DA3FF);
+padding:70px 20px;
+border-radius:30px;
+color:white;
+text-align:center;
+margin:60px auto;
+max-width:1200px;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.service-card{
+background:white;
+padding:30px;
+border-radius:20px;
+text-align:center;
+}
+
+.trust-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.trust-card{
+background:white;
+padding:30px;
+border-radius:20px;
+text-align:center;
+}
+
+.contact-section{
+padding:80px 20px;
+background:white;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.contact-card{
+padding:25px;
+background:#f7f9fc;
+border-radius:20px;
+text-align:center;
+}
+
+.floating-whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>TEAM COMPUTER</h1>
+
+<p>
+Computer, Laptop & IT Solution Store
+</p>
+
+<div class="cta-buttons">
+
+<a href="#" class="btn whatsapp">
+WhatsApp Order Now
+</a>
+
+<a href="#" class="btn call">
+Call Now
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PRODUCTS ABOVE THE FOLD -->
+
+<section class="products-section">
+
+<h2 class="section-title">
+Featured Products
+</h2>
+
+<div class="products-grid">
+
+<!-- Monitor -->
+
+<div class="product-card">
+
+<img src="monitor.jpg">
+
+<div class="product-info">
+
+<h3>Gaming Monitor</h3>
+
+<div class="price">৳15,500</div>
+
+<p>24" IPS Full HD</p>
+
+<div class="stock">
+In Stock
+</div>
+
+<a href="#" class="order-btn">
+WhatsApp Order
+</a>
+
+</div>
+
+</div>
+
+<!-- Motherboard -->
+
+<div class="product-card">
+
+<img src="motherboard.jpg">
+
+<div class="product-info">
+
+<h3>Motherboard</h3>
+
+<div class="price">৳8,500</div>
+
+<p>Intel H610 DDR4</p>
+
+<div class="stock">
+In Stock
+</div>
+
+<a href="#" class="order-btn">
+WhatsApp Order
+</a>
+
+</div>
+
+</div>
+
+<!-- HDD -->
+
+<div class="product-card">
+
+<img src="hdd.jpg">
+
+<div class="product-info">
+
+<h3>Hard Disk</h3>
+
+<div class="price">৳4,200</div>
+
+<p>1TB SATA HDD</p>
+
+<div class="stock">
+In Stock
+</div>
+
+<a href="#" class="order-btn">
+WhatsApp Order
+</a>
+
+</div>
+
+</div>
+
+<!-- SSD -->
+
+<div class="product-card">
+
+<img src="ssd.jpg">
+
+<div class="product-info">
+
+<h3>SSD Drive</h3>
+
+<div class="price">৳2,800</div>
+
+<p>256GB NVMe SSD</p>
+
+<div class="stock">
+In Stock
+</div>
+
+<a href="#" class="order-btn">
+WhatsApp Order
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CATEGORIES -->
+
+<section class="products-section">
+
+<h2 class="section-title">
+
+Shop By Category
+
+</h2>
+
+<div class="category-grid">
+
+<div class="category-card">Laptop Parts</div>
+
+<div class="category-card">Desktop Parts</div>
+
+<div class="category-card">Gaming Components</div>
+
+<div class="category-card">Storage Devices</div>
+
+<div class="category-card">Printers</div>
+
+<div class="category-card">CCTV & Security</div>
+
+<div class="category-card">Networking</div>
+
+</div>
+
+</section>
+
+<!-- OFFER -->
+
+<div class="offer-banner">
+
+<h2>Special Offers</h2>
+
+<h1>Up To 30% OFF</h1>
+
+<p>
+Best Selling Products, New Arrivals,
+Discount Offers & Featured Products
+</p>
+
+</div>
+
+<!-- SERVICES -->
+
+<section class="products-section">
+
+<h2 class="section-title">
+
+Our Services
+
+</h2>
+
+<div class="services-grid">
+
+<div class="service-card">
+Laptop Repair
+</div>
+
+<div class="service-card">
+Desktop Repair
+</div>
+
+<div class="service-card">
+Motherboard Repair
+</div>
+
+<div class="service-card">
+Printer Repair
+</div>
+
+<div class="service-card">
+CCTV Installation
+</div>
+
+<div class="service-card">
+Networking Setup
+</div>
+
+</div>
+
+</section>
+
+<!-- TRUST -->
+
+<section class="products-section">
+
+<h2 class="section-title">
+
+Why Choose Us
+
+</h2>
+
+<div class="trust-grid">
+
+<div class="trust-card">
+⭐⭐⭐⭐⭐
+Customer Reviews
+</div>
+
+<div class="trust-card">
+Warranty Support
+</div>
+
+<div class="trust-card">
+Expert Technicians
+</div>
+
+<div class="trust-card">
+Genuine Products
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact-section">
+
+<h2 class="section-title">
+
+Contact Us
+
+</h2>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+WhatsApp
+</div>
+
+<div class="contact-card">
+Phone Number
+</div>
+
+<div class="contact-card">
+Facebook Page
+</div>
+
+<div class="contact-card">
+Google Maps
+</div>
+
+</div>
+
+</section>
+
+</body>
+
+</html>
